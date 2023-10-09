@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  @font-face {
+    font-family: moon;
+    src: url("../fonts/27698ae5-b12a-442e-81ac-cc31bd54f9a6.otf");
+  }
+ 
+  

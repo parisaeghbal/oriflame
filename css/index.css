@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1286px;
+  height: 100vh;
+  margin: 0 auto;
+}
+.container .title {
+  font-size: 40px;
+  font-family: moon;
+  font-weight: bold;
+  color: rgb(50, 50, 50);
+  margin: 30px;
+  text-align: center;
+}
+.container .parent {
+  width: 1286px;
+  height: 384px;
+  display: grid;
+  grid-template-columns: 574px 713px;
+  column-gap: 10px;
+}
+.container .parent .child1 {
+background-image: url("../images/1.jpg");
+background-size: cover;
+  height: 384px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.container .parent .child1 a  {
+  width: 150px;
+  height: 40px;
+  background-color:#92094e;
+  font-size: 20px;
+  color: whitesmoke;
+  font-family: moon;
+  font-weight: bold;
+  text-decoration: none;
+ padding: 0px 30px;
+ line-height: 40px;
+ border-radius: 20px;
+ margin-bottom: 25px;
+
+
+ 
+}
+.container .parent .child1 a:hover{
+    background-color:#EE4C9C ;
+}  
+.container .parent .child2 {
+  height: 384px;
+  width: 713px;
+  display: grid;
+  grid-template-columns: repeat(3, 227px);
+  column-gap: 10px;
+}
+.container .parent .child2 .image {
+  height: 384px;
+  width: 227px;
+  justify-content: center;
+}
+
+.container .parent .child2 .image img {
+  height: 227px;
+  border-radius: 10px;
+}
+.container .parent .child2 .image .star {
+  margin-top: 5px;
+}
+.container .parent .child2 .image .star .gray {
+  font-size: 10px;
+  font-family: moon;
+  font-weight: lighter;
+  color: rgb(115, 115, 115);
+  text-align: left;
+  letter-spacing: 1.5px;
+  padding: 10px 3px;
+  box-sizing: border-box;
+}
+.container .parent .child2 .image .star .black {
+  font-size: 12px;
+  font-family: moon;
+  font-weight: lighter;
+  color: rgb(57, 57, 57);
+  text-align: left;
+  padding: 5px 3px;
+  box-sizing: border-box;
+}
+.container .parent .child2 .image .star .color {
+  font-size: 15px;
+  text-align: left;
+  padding: 7px 3px;
+  box-sizing: border-box;
+}
+.container .parent .child2 .image .star .price {
+ display: flex;
+ flex-flow: row nowrap;
+}
+.container .parent .child2 .image .star .price .price1 {
+  font-size: 12px;
+  font-family: moon;
+  font-weight: lighter;
+  color: rgb(125, 104, 221);
+  text-align: left;
+  padding: 5px 3px;
+  box-sizing: border-box;
+}
+.container .parent .child2 .image .star .price .off-price {
+  font-size: 12px;
+  font-family: moon;
+  font-weight: lighter;
+  color: rgb(152, 151, 153);
+  text-align: left;
+  padding: 5px 3px;
+  text-decoration: line-through;
+  box-sizing: border-box;
+}
